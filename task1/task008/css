@@ -6,22 +6,9 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-#container{
+#container {
     width: 100%;
-}
-.row{
-    width:100%;
-    border:1px black solid;
-    background-color: white;
-
-    margin:20px 0;
-    padding:0 20px;
-}
-.row:before,
- .row:after {
-    content: "";
-    display: table;
-    clear: both;
+    padding: 10px;
 }
 
 [class*='col-'] {
