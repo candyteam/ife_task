@@ -3,8 +3,24 @@
 <head>
     <meta charset="utf-8">
     <title>IFE JavaScript Task 01</title>
-    <script src="task0017.js"></script>
-</head>
+<style>
+    .aqi-chart-wrap {
+        display: flex;
+        width: 90%;
+        height: 600px;
+
+        /*justify-content: center;*/
+        align-items: flex-end;/*定义项目在交叉轴上如何对齐*/
+        /*align-content: center;*/
+        margin: 10px auto;
+        padding: 10px;
+        border: 2px solid #000;
+    }
+    .aqi-chart-wrap div {
+        border: 1px solid #000;
+        flex: 1;
+    }
+</style>
 <body>
 <fieldset id="form-gra-time">
     <legend>请选择日期粒度：</legend>
@@ -22,5 +38,7 @@
 
 <div class="aqi-chart-wrap">
 </div>
+<script src="task0017.js"></script>
+</head>
 </body>
 </html>
