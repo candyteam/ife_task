@@ -160,6 +160,7 @@ function initAqiChartData() {
     }else if(pageState.nowGraTime=='week'){
         chartData={};
         var countSum= 0,daySum= 0,week=0;
+
         for(var item in nowCityData){    //item就是日期
            countSum+=nowCityData[item];
             daySum++;
